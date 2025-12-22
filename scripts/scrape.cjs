@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-// Standalone Scraper for Automated Hosting
+// Final Poke for Automated Hosting Success
 const pdf = require('pdf-extraction');
 const fs = require('fs');
 const path = require('path');
