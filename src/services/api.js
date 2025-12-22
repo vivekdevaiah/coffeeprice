@@ -3,7 +3,7 @@ import axios from 'axios';
 // 1. Primary: Try fetching the static prices.json (updated by GitHub Actions)
 // 2. Secondary: Try fetching from the local dev server (if running)
 // 3. Last: Use hardcoded fallback
-const STATIC_URL = '/prices.json';
+const STATIC_URL = 'prices.json';
 const DEV_URL = 'http://localhost:3001/api/prices';
 
 export const fetchCoffeePrices = async () => {
