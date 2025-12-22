@@ -23,9 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: |
-          cd server
-          npm install
+        run: npm install
 
       - name: Run Scraper
         run: node scripts/scrape.cjs
