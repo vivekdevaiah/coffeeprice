@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+// Standalone Scraper for Automated Hosting
 const pdf = require('pdf-extraction');
 const fs = require('fs');
 const path = require('path');
