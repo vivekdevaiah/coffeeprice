@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-coffee-950 text-gray-50 antialiased overflow-x-hidden;
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-black/40 backdrop-blur-xl border border-white/10 rounded-3xl shadow-2xl;
+  }
+
+  .premium-card {
+    @apply bg-gradient-to-br from-white/10 to-transparent backdrop-blur-md border border-white/10 rounded-3xl transition-all duration-300 hover:scale-[1.01] hover:bg-white/15;
+  }
+
+  .mesh-bg {
+    background-color: #1a120b;
+    background-image:
+      radial-gradient(at 0% 0%, hsla(28, 100%, 74%, 1) 0, transparent 50%),
+      radial-gradient(at 50% 0%, hsla(34, 100%, 74%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(22, 100%, 77%, 1) 0, transparent 50%),
+      radial-gradient(at 50% 100%, hsla(17, 100%, 70%, 1) 0, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a77f5d;
+  border-radius: 10px;
+}
