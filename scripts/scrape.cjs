@@ -27,7 +27,7 @@ async function scrape() {
         await client.send('Page.setDownloadBehavior', { behavior: 'allow', downloadPath: downloadPath });
 
         console.log('[Scraper] Navigating to Coffee Board...');
-        await page.goto('https://coffeeboard.gov.in/Market_Info.aspx', { waitUntil: 'networkidle0', timeout: 60000 });
+        await page.goto('https://coffeeboard.gov.in/Market_Info.aspx', { waitUntil: 'networkidle0', timeout: 120000 });
 
         const selector = 'a[href*="lbnmarketinfo"]';
         await page.waitForSelector(selector, { timeout: 10000 });

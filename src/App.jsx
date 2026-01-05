@@ -110,12 +110,11 @@ function App() {
                           {item.name}
                         </h3>
                       </div>
-                      <div className="flex items-baseline gap-1">
-                        <span className="text-3xl font-black text-white tracking-tight drop-shadow-sm">
-                          {item.price.split(' ')[1]}
+                      <div className="flex items-baseline gap-2">
+                        <span className="text-2xl font-black text-white tracking-tight drop-shadow-sm">
+                          {item.price}
                         </span>
-                        <span className="text-white/70 font-bold ml-1 text-sm">{item.price.split(' ')[0]}</span>
-                        <span className="text-white/40 font-bold ml-3 text-xs italic tracking-tighter">per 50kg</span>
+                        <span className="text-white/40 font-bold text-xs italic tracking-tighter shrink-0">per 50kg</span>
                       </div>
                     </div>
 
