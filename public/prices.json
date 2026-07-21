@@ -8,7 +8,7 @@
     {
       "id": "arabica-cherry",
       "name": "Arabica Cherry",
-      "price": "₹ 13700 - 15300"
+      "price": "₹ 13700 - 15400"
     },
     {
       "id": "robusta-parchment",
@@ -18,10 +18,10 @@
     {
       "id": "robusta-cherry",
       "name": "Robusta Cherry",
-      "price": "₹ 10100 - 10850"
+      "price": "₹ 10100 - 11000"
     }
   ],
-  "lastUpdated": "17.07.2026",
+  "lastUpdated": "20.07.2026",
   "source": "Coffee Board of India",
-  "fetchedAt": "2026-07-21T01:20:31.820Z"
+  "fetchedAt": "2026-07-21T08:03:08.789Z"
 }
